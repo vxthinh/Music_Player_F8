@@ -322,11 +322,15 @@ const app = {
         });
     },
     loadConfig: function () {
-        this.isRandom = this.config.isRandom
-        this.isRepeat = this.config.isRepeat
-        // Hiển thị trạng thái ban đầu của button repeat và random
-        randomBtn.classList.toggle('active', this.isRandom)
-        repeatBtn.classList.toggle('active', this.isRepeat)
+        if((this.config.isRandom !== undefined)&&(this.config.isRepeat !== undefined)){
+            this.isRandom = this.config.isRandom
+            this.isRepeat = this.config.isRepeat
+            // Hiển thị trạng thái ban đầu của button repeat và random
+            randomBtn.classList.toggle('active', this.isRandom)
+            repeatBtn.classList.toggle('active', this.isRepeat)
+        }
+
+ 
     },
     nextSong: function () {
         this.currentIndex++
