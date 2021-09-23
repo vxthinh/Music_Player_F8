@@ -61,12 +61,6 @@ const app = {
             image: 'https://i1.sndcdn.com/artworks-yqiiKWS6GVNHnqIi-Zup5hg-t500x500.jpg',
         },
         {
-            name: 'Muộn rồi mà sao còn',
-            singer: 'Sơn Tùng M-TP',
-            path: 'https://aredir.nixcdn.com/Believe_Audio19/MuonRoiMaSaoCon-SonTungMTP-7011803.mp3?st=w9AA-eyRI7yD_VYGfvVWeQ&e=1623141624',
-            image: 'https://pbs.twimg.com/media/Ez5jRyVVgAQN6Kh.jpg',
-        },
-        {
             name: 'See You Again',
             singer: 'Charlie Puth ft Wiz Khalifa',
             path: 'https://aredir.nixcdn.com/NhacCuaTui894/SeeYouAgain-KurtSchneiderEppicAlexGoot-3888930.mp3?st=1q73myBS8FKr8Rx0snpMJw&e=1623144094',
@@ -77,8 +71,7 @@ const app = {
             singer: 'Ed Sheeran',
             path: 'https://aredir.nixcdn.com/NhacCuaTui945/ShapeOfYou-AlexGootAndieCase-5076956.mp3?st=9I9Z2TBGWNOnQRfIJDomDA&e=1623138210',
             image: 'https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/09/a0/64/09a0641c-e5fa-407e-9829-47702358ec72/190295819972.jpg/1200x1200bf-60.jpg',
-        }
-        ,
+        } ,
         {
             name: 'Symphony',
             singer: 'Clean Bandit',
